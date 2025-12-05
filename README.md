@@ -64,7 +64,7 @@ $\[
 <img src="Images/UI2.jpg" width="400" height="650">
 
 ## 사용자 시나리오
-1. https://huggingface.co/spaces/sirius-koo/ORRAK-INFO/tree/main 서버에 접속한다.
+1. [초보 클라이머를 위한 자세 추정 기반 분석 도구](https://huggingface.co/spaces/sirius-koo/ORRAK-INFO) 서버에 접속한다.
 2. 사용자는 자신의 디바이스에서 영상을 업로드한다.
 3. 서버로부터 분석 영상을 기다린다.
 4. 분석된 영상을 바로 시청 또는 다운로드한다.
