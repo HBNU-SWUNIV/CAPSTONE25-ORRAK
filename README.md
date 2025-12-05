@@ -22,7 +22,7 @@
 ## Analysis Process Description
 <img src="Images/sample5.png" width="500" height="500">
 
-### 무게 중심(COS, Center Of Mass) 계산
+### 무게 중심(COM, Center Of Mass) 계산
 - Mediapipe 기반 포즈 추정으로 주요 관절 좌표 33개를 추출한다.
 - Mediapipe로 추출된 Landmark(x,y,z) 좌표에 대하여 인간의 각 신체 세그먼트(상완, 전완, 대퇴, 경골 등)의 질량 비율을 고려하여 **세그먼트 중심 좌표**를 구한다.
 - 전체 무게 중심은 각 세그먼트 중심과 질량을 가중 평균하여 계산한다:
